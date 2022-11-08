@@ -20,7 +20,7 @@ var bttn9 = document.getElementById("modalBttn9");
 var bttn10 = document.getElementById("modalBttn10");
 var bttn11 = document.getElementById("modalBttn11");
 
-
+var modalImg = document.getElementById("modalImg");
 var modalDiv = document.getElementById("modalDiv");
 
 // Get the <span> element that closes the modal
@@ -129,7 +129,7 @@ function showSlides() {
     slides[i].style.display = "none";  
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1};
+  if (slideIndex > slides.length) {slideIndex = 1;}
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" aktiv", "");
   }
