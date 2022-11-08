@@ -85,25 +85,25 @@ bttn11.onclick = function() {
 // When the user clicks on the button, open the modal
 btn1.onclick = function() {
   modal.style.display = "block";
-  modalImg.src = this.src;
+  modalImg.src = "https://image.vartoslo.no/411994.jpg?imageId=411994&x=0&y=0&cropw=100&croph=100&width=751&height=657";
 };
 
 // When the user clicks on the button, open the modal
 btn2.onclick = function() {
   modal.style.display = "block";
-  modalImg.src = this.src;
+  modalImg.src = "https://image.vartoslo.no/411999.jpg?imageId=411999&x=0&y=0&cropw=100&croph=100&width=751&height=657";
 };
 
 // When the user clicks on the button, open the modal
 btn3.onclick = function() {
   modal.style.display = "block";
-  modalImg.src = this.src;
+  modalImg.src = "https://image.vartoslo.no/412246.jpg?imageId=412246&x=0&y=0&cropw=100&croph=100&width=751&height=657";
 };
 
 // When the user clicks on the button, open the modal
 btn4.onclick = function() {
   modal.style.display = "block";
-  modalImg.src = this.src;
+  modalImg.src = "https://image.vartoslo.no/412247.jpg?imageId=412247&x=0&y=0&cropw=100&croph=100&width=751&height=657";
 };
 
 // When the user clicks on <span> (x), close the modal
